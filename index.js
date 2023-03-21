@@ -48,7 +48,7 @@ async function getChatGPT(prompt){
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer xx-xxxx'
+      'Authorization': 'Bearer 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'
     },
     body: JSON.stringify({
       'model': 'text-davinci-003',
